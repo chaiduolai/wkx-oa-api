@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wkx.oa.dao.EmployeeRostersDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.wkx.oa.entity.EmployeeRostersEntity" id="employeeRostersMap">
+        <result property="ids" column="ids"/>
+        <result property="createby" column="createby"/>
+        <result property="createdate" column="createdate"/>
+        <result property="updateby" column="updateby"/>
+        <result property="updatedate" column="updatedate"/>
+        <result property="remarks" column="remarks"/>
+        <result property="state" column="state"/>
+        <result property="employeeNumber" column="employee_number"/>
+        <result property="employeeName" column="employee_name"/>
+        <result property="employeeIdcards" column="employee_idcards"/>
+        <result property="employeePhone" column="employee_phone"/>
+        <result property="employeeEmail" column="employee_email"/>
+        <result property="entryCompany" column="entry_company"/>
+        <result property="entryCompanyIds" column="entry_company_ids"/>
+        <result property="entryPosition" column="entry_position"/>
+        <result property="entryPositionIds" column="entry_position_ids"/>
+        <result property="trialDateStartFirst" column="trial_date_start_first"/>
+        <result property="trialDateEndFirst" column="trial_date_end_first"/>
+        <result property="trialSalaryFirst" column="trial_salary_first"/>
+        <result property="trialDateStartSecond" column="trial_date_start_second"/>
+        <result property="trialDateEndSecond" column="trial_date_end_second"/>
+        <result property="trialSalarySecond" column="trial_salary_second"/>
+        <result property="trialDateStartOver" column="trial_date_start_over"/>
+        <result property="trialDateEndOver" column="trial_date_end_over"/>
+        <result property="trialSalaryOver" column="trial_salary_over"/>
+        <result property="trialDate" column="trial_date"/>
+        <result property="laborContractDateStart" column="labor_contract_date_start"/>
+        <result property="laborContractDateEnd" column="labor_contract_date_end"/>
+        <result property="payDay" column="pay_day"/>
+        <result property="sbJnd" column="sb_jnd"/>
+        <result property="welfare" column="welfare"/>
+        <result property="isInternship" column="is_internship"/>
+        <result property="isInterEmployee" column="is_inter_employee"/>
+        <result property="nation" column="nation"/>
+        <result property="isMarital" column="is_marital"/>
+        <result property="zodiac" column="zodiac"/>
+        <result property="constellation" column="constellation"/>
+        <result property="politicalOutlook" column="political_outlook"/>
+        <result property="isPaymentSbBj" column="is_payment_sb_bj"/>
+        <result property="education" column="education"/>
+        <result property="graduationSchool" column="graduation_school"/>
+        <result property="major" column="major"/>
+        <result property="registeredResidence" column="registered_residence"/>
+        <result property="registeredResidenceType" column="registered_residence_type"/>
+        <result property="currentResidence" column="current_residence"/>
+        <result property="eduExperience" column="edu_experience"/>
+        <result property="workExperience" column="work_experience"/>
+        <result property="familyMember" column="family_member"/>
+        <result property="emergencyContactName" column="emergency_contact_name"/>
+        <result property="emergencyContactPhone" column="emergency_contact_phone"/>
+        <result property="designatedHospital1" column="designated_hospital_1"/>
+        <result property="designatedHospital2" column="designated_hospital_2"/>
+        <result property="designatedHospital3" column="designated_hospital_3"/>
+        <result property="designatedHospital4" column="designated_hospital_4"/>
+        <result property="designatedHospital5" column="designated_hospital_5"/>
+        <result property="photoContentTitle" column="photo_content_title"/>
+        <result property="photoContentUrl" column="photo_content_url"/>
+        <result property="jobStatus" column="job_status"/>
+    </resultMap>
+
+
+</mapper>
